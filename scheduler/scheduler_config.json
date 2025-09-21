@@ -1,0 +1,18 @@
+{
+    "_class_name": "DDPMScheduler",
+    "_diffusers_version": "0.24.0",
+    "beta_end": 0.012,
+    "beta_schedule": "scaled_linear",  
+    "beta_start": 0.00085,
+    "clip_sample": false,
+    "num_train_timesteps": 1000,
+    "prediction_type": "v_prediction",
+    "variance_type": "fixed_small",
+    "thresholding": false,
+    "dynamic_thresholding_ratio": 0.995,
+    "sample_max_value": 1.0,
+    "timestep_spacing": "leading",
+    "steps_offset": 0,
+    "rescale_betas_zero_snr": false,
+    "timestep_type": "discrete"
+}
